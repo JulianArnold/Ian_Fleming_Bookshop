@@ -1,0 +1,52 @@
+<NewDataSet>
+  <Employees>
+    <FirstName>Nancy</FirstName>
+    <LastName>Davolio</LastName>
+    <Title>Sales Representative</Title>
+    <Region>WA</Region>
+  </Employees>
+  <Employees>
+    <FirstName>Andrew</FirstName>
+    <LastName>Fullerton</LastName>
+    <Title>Vice President, Sales</Title>
+    <Region>WA</Region>
+  </Employees>
+  <Employees>
+    <FirstName>Janet</FirstName>
+    <LastName>Leverling</LastName>
+    <Title>Sales Representative</Title>
+    <Region>WA</Region>
+  </Employees>
+  <Employees>
+    <FirstName>Margaret</FirstName>
+    <LastName>Peacock</LastName>
+    <Title>Sales Representative</Title>
+    <Region>WA</Region>
+  </Employees>
+  <Employees>
+    <FirstName>Stephen</FirstName>
+    <LastName>Buchanan</LastName>
+    <Title>Sales Manager</Title>
+  </Employees>
+  <Employees>
+    <FirstName>Michael</FirstName>
+    <LastName>Suyama</LastName>
+    <Title>Sales Representative</Title>
+  </Employees>
+  <Employees>
+    <FirstName>Robert</FirstName>
+    <LastName>King</LastName>
+    <Title>Sales Representative</Title>
+  </Employees>
+  <Employees>
+    <FirstName>Laura</FirstName>
+    <LastName>Callahan</LastName>
+    <Title>Inside Sales Coordinator</Title>
+    <Region>WA</Region>
+  </Employees>
+  <Employees>
+    <FirstName>Anne</FirstName>
+    <LastName>Dodsworth</LastName>
+    <Title>Sales Representative</Title>
+  </Employees>
+</NewDataSet>

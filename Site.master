@@ -1,0 +1,97 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeFile="Site.Master.vb" Inherits="Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    </head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    The ian fleming bookshop
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
+                    EnableViewState="False" IncludeStyleBlock="False" Orientation="Horizontal">
+                    <DynamicItemTemplate>
+                        <%# Eval("Text") %>
+                    </DynamicItemTemplate>
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home">
+                            <asp:MenuItem NavigateUrl="~/About.aspx" Text="About" Value="About">
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Stock" 
+                            Value="Stock" > 
+                        
+                            <asp:MenuItem NavigateUrl="~/Account/Books.aspx" Text="Book Search" 
+                                Value="Books Search" ToolTip="Book List"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Account/Verify Stock.aspx" Text="Validate Stock" 
+                                Value="Validate Stock"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Account/stock_xml_css.aspx" Text="View Books as XML" 
+                                Value="View Books as XML"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Account/Stock_html.aspx" Text="Convert XML to HTML" 
+                                Value="Convert XML to HTML"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Account/editxmldata.aspx" Text="Edit Stock XML" 
+                                Value="Edit Stock XML"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Account/dataaccesslayer.aspx" Text="Data Access Layer" 
+                                Value="Data Access Layer"></asp:MenuItem>
+                        </asp:MenuItem>
+                        
+                        <asp:MenuItem Text="Customers" 
+                            Value="Customers" >
+                        
+                            <asp:MenuItem NavigateUrl="~/Account/Search.aspx" Text="Search" 
+                                Value="Search"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Account/masterCustomer.aspx" Text="Edit" 
+                                Value="Edit"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Account/OrderDetails.aspx" Text="Order Details" 
+                                Value="Order Details"></asp:MenuItem>
+                        </asp:MenuItem>
+                        
+                        <asp:MenuItem NavigateUrl="~/Account/VB.aspx" Text="AJAX Example" 
+                            Value="AJAX Example"></asp:MenuItem>
+                       
+                        <asp:MenuItem NavigateUrl="~/Account/ADO.aspx" Text="Suppliers" 
+                            Value="Suppliers"></asp:MenuItem>
+                       
+                    </Items>
+                    <StaticItemTemplate>
+                        <%# Eval("Text") %>
+                    </StaticItemTemplate>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                <p id="ian_fleming_photo" align="center">
+                    &nbsp;</p>
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>

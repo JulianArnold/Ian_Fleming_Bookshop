@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Customers>
+    <FirstName>Joe</FirstName>
+  </Customers>
+  <Customers>
+    <FirstName>Julian</FirstName>
+  </Customers>
+  <Customers>
+    <FirstName>Sean</FirstName>
+  </Customers>
+  <Customers>
+    <FirstName>George</FirstName>
+  </Customers>
+  <Customers>
+    <FirstName>Roger</FirstName>
+  </Customers>
+  <Customers>
+    <FirstName>Timothy</FirstName>
+  </Customers>
+  <Customers>
+    <FirstName>Pierce</FirstName>
+  </Customers>
+  <Customers>
+    <FirstName>Bob</FirstName>
+  </Customers>
+</NewDataSet>

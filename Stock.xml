@@ -1,0 +1,127 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Stock>
+    <StockID>10007</StockID>
+    <Description>The spy who loved me</Description>
+    <Price>10</Price>
+    <Stock_level>5</Stock_level>
+    <SupplierID>3</SupplierID>
+  </Stock>
+  <Stock>
+    <StockID>1007</StockID>
+    <Description>Casino Royale</Description>
+    <Price>10</Price>
+    <Stock_level>14</Stock_level>
+  </Stock>
+  <Stock>
+    <StockID>11007</StockID>
+    <Description>On her majesty's secret service</Description>
+    <Price>10</Price>
+    <Stock_level>4</Stock_level>
+  </Stock>
+  <Stock>
+    <StockID>12007</StockID>
+    <Description>You only live twice</Description>
+    <Price>10</Price>
+    <Stock_level>3</Stock_level>
+  </Stock>
+  <Stock>
+    <StockID>13007</StockID>
+    <Description>The man with the golden gun</Description>
+    <Price>10</Price>
+    <Stock_level>2</Stock_level>
+  </Stock>
+  <Stock>
+    <StockID>14007</StockID>
+    <Description>Octopussy and the Living Daylights</Description>
+    <Price>8</Price>
+    <Stock_level>1</Stock_level>
+  </Stock>
+  <Stock>
+    <StockID>2007</StockID>
+    <Description>Live and let die</Description>
+    <Price>10</Price>
+    <Stock_level>13</Stock_level>
+  </Stock>
+  <Stock>
+    <StockID>3007</StockID>
+    <Description>Moonraker</Description>
+    <Price>10</Price>
+    <Stock_level>12</Stock_level>
+  </Stock>
+  <Stock>
+    <StockID>4007</StockID>
+    <Description>Diamonds are forever</Description>
+    <Price>10</Price>
+    <Stock_level>11</Stock_level>
+  </Stock>
+  <Stock>
+    <StockID>5007</StockID>
+    <Description>From Russia, with love</Description>
+    <Price>10</Price>
+    <Stock_level>10</Stock_level>
+    <SupplierID>3</SupplierID>
+  </Stock>
+  <Stock>
+    <StockID>6007</StockID>
+    <Description>Dr. No</Description>
+    <Price>10</Price>
+    <Stock_level>9</Stock_level>
+  </Stock>
+  <Stock>
+    <StockID>7007</StockID>
+    <Description>Goldfinger</Description>
+    <Price>10</Price>
+    <Stock_level>8</Stock_level>
+  </Stock>
+  <Stock>
+    <StockID>8007</StockID>
+    <Description>For your eyes only</Description>
+    <Price>8</Price>
+    <Stock_level>7</Stock_level>
+  </Stock>
+  <Stock>
+    <StockID>9007</StockID>
+    <Description>Thunderball</Description>
+    <Price>10</Price>
+    <Stock_level>6</Stock_level>
+  </Stock>
+  <Stock>
+    <StockID>15007</StockID>
+    <Description>007 in New York</Description>
+    <Price>10</Price>
+    <Stock_level>0</Stock_level>
+  </Stock>
+  <Stock>
+    <StockID>16007</StockID>
+    <Description>Thrilling Cities</Description>
+    <Price>10</Price>
+    <Stock_level>0</Stock_level>
+  </Stock>
+  <Stock>
+    <StockID>995501</StockID>
+    <Description>The Diamond Smugglers</Description>
+    <Price>15</Price>
+  </Stock>
+  <Stock>
+    <StockID>18007</StockID>
+    <Description>Ian fleming Bio</Description>
+    <Price>19</Price>
+    <Stock_level>20</Stock_level>
+    <SupplierID>3</SupplierID>
+  </Stock>
+  <Stock>
+    <StockID>19007</StockID>
+    <Description>007 Uncovered</Description>
+    <Price>15</Price>
+    <Stock_level>30</Stock_level>
+    <SupplierID>2</SupplierID>
+  </Stock>
+  <Stock>
+    <StockID>20007</StockID>
+    <Description>Bond gadgets</Description>
+    <Price>12</Price>
+    <Stock_level>9</Stock_level>
+    <SupplierID>2</SupplierID>
+  </Stock>
+</NewDataSet>
